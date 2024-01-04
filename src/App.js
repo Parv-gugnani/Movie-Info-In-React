@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Movie Mania</h1>
+        <h1>Search Any Moview</h1>
       </header>
       <main>
         <Search searchInput={searchInput} search={search} />
@@ -82,6 +82,12 @@ function App() {
           false
         )}
       </main>
+      <h1
+        className="git"
+        href="https://github.com/Parv-gugnani/Movie-Info-In-React"
+      >
+        Here
+      </h1>
     </div>
   );
 }
